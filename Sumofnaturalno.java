@@ -1,0 +1,14 @@
+class Sumofnaturalno
+
+{
+	public static void main(String[] args)
+	{
+		int n=10;
+		int num=0;
+		for(int i=1;i<=n;i++)
+		{
+			num=num+i;
+		}
+		System.out.println(num);
+	}
+}

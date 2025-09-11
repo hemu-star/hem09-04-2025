@@ -1,0 +1,25 @@
+//finding number of even & odd digits in a string
+class RV15
+{
+	public static void main(String[] args)
+	{
+		int number=43245476787;
+		int even_count=0;
+		int odd_count=0;
+		while (number>0)
+		{
+			int remainder=number%10;
+			if (remainder%2==0)
+			{
+				even_count++;
+			}
+			else
+			{
+				odd_count++;
+			}
+			number=number/10;
+		}
+		System.out.println("even no in the string:"+even_count);
+		System.out.println("odd no in the string:"+odd_count);
+	}
+}

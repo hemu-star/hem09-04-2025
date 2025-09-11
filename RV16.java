@@ -1,0 +1,26 @@
+/* counting number of even & odd digits*/
+class RV16
+{
+	public static void main(String[] args)
+	{
+		int num=65675876;
+		int rem;
+		int e_count=0;
+		int o_count=0;
+		while (num>0)
+		{
+			rem=num%10;
+			if (rem%2==0)
+			{
+				e_count++;
+			}
+			else
+			{
+				o_count++;
+			}
+			num=num/10;
+		}
+		System.out.println("number of even digits:"+e_count);
+		System.out.println("number of odd digits:"+o_count);
+	}
+}

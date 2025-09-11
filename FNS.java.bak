@@ -1,0 +1,16 @@
+class FNS
+{
+	public static void main(String[] args)
+	{
+		int num=3,first=0,second=1;
+		int next;
+		System.out.print("Fibbonaci Series:"+first+" "+second);
+		for (int i=3;i<=num ;i++ )
+		{
+			next=first+second;
+			System.out.print(" "+next);
+			first=second;
+			second=next;
+		}
+	}
+}
