@@ -2,7 +2,7 @@ class ArmStr
 {
 	public static void main(String[] args)
 	{
-		int num=370;
+		int num=3700;
 		int temp=num;
 		int rem,sum=0;
 		
